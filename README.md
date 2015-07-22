@@ -9,3 +9,4 @@
 4. Bootstrap tabs
 
 ## 2: Angular Intro
+1. Add Bundling and Angular packages
