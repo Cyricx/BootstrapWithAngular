@@ -25,9 +25,12 @@
 
         $scope.submitTicket = function (item) {
             if (id) {
-                TicketService.updateItem(item);
-                $location.path('/tickets');
-                $route.reload();//similar to re-databinding
+                //remove nested ticket category object so .net doesn't freak out!
+                item.TicketCategory = undefined;
+                TicketService.updateItem(item).then(function () {
+                    $location.path('/tickets');
+                    $route.reload();//similar to re-databinding
+                });
             } else {
                 TicketService.createItem(item).$promise.then(function () {
                     $location.path('/tickets');

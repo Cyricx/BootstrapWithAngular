@@ -30,3 +30,4 @@
 4. Hook up select for TicketCategories
 5. Implement save for edit
 6. Create functionality
+7. Fix category issue with edit
