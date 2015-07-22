@@ -8,7 +8,7 @@
         //When you call the resource method you can pass the url, parameters and configuration
         var resourceAccessObject = $resource('http://localhost:3383/api/tickets/:TicketID',
             { id: '@TicketID' },
-            { save: { method: "PUT" } }
+            { save: { method: "PUT" }, create: { method: "POST" } }
             );
 
         return {

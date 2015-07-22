@@ -29,3 +29,4 @@
 3. Retrieve editting id and populate inputs
 4. Hook up select for TicketCategories
 5. Implement save for edit
+6. Create functionality
