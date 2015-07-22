@@ -26,3 +26,4 @@
 ## 4: Tickets CRUD
 1. Add quick close
 2. Add Manage Ticket Controller
+3. Retrieve editting id and populate inputs

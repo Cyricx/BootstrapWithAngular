@@ -18,6 +18,9 @@
             },
             updateItem: function (item) {
                 return item.$save();
+            },
+            getItem: function (id) {
+                return resourceAccessObject.get({ TicketID: id });
             }
         };
     }

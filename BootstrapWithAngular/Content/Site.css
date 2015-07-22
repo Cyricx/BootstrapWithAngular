@@ -10,10 +10,13 @@
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
-input,
+/*input,
 select,
 textarea {
     max-width: 280px;
+}*/
+textarea {
+    min-height: 10em;
 }
 
 /*custom adding space between rows*/
