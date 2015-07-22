@@ -14,3 +14,4 @@
 3. Data-Binding
 4. Dependency Injection
 5. Setup Routing
+6. Add nav
