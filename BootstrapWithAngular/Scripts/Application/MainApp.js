@@ -1,6 +1,6 @@
 ﻿//to create a module pass the name and an array for anything it depends on.
 //Our module now depends on the route module, which is named ngRoute
-angular.module("MainApp", []);
+angular.module("MainApp", ['ngRoute']);
 
 //The below works WITHOUT minification. If minified it breaks the depenency injection
 //Angular no longer finds a parameter called $scope.
@@ -20,3 +20,13 @@ angular.module("MainApp").controller("TestController",
         }
     ]
 );
+
+//To setup routes you must alter the way the module is configured.
+angular.module("MainApp").config([
+    '$routeProvider',
+    function ($routeProvider) {
+        $routeProvider.when('/', {
+            templateUrl: '../../Scripts/Application/TestView.html'
+        });
+    }
+]);
