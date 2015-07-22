@@ -31,5 +31,8 @@ angular.module("MainApp").config([
         $routeProvider.when('/tickets', {
             templateUrl: '../../Scripts/Application/Modules/Tickets/Tickets.html'
         });
+        $routeProvider.when('/tickets/:id', {
+            templateUrl: '../../Scripts/Application/Modules/Tickets/ManageTicket.html'
+        });
     }
 ]);

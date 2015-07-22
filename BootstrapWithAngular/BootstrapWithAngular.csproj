@@ -144,6 +144,8 @@
     <Content Include="Scripts\Application\MainApp.min.js">
       <DependentUpon>MainApp.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\Application\Modules\Tickets\ManageTicket.html" />
+    <Content Include="Scripts\Application\Modules\Tickets\ManageTicketController.js" />
     <Content Include="Scripts\Application\Modules\Tickets\TicketService.js" />
     <Content Include="Scripts\Application\TestView.html" />
     <Content Include="Scripts\Application\Modules\Tickets\TicketApp.js" />

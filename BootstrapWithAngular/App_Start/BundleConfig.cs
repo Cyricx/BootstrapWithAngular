@@ -17,7 +17,8 @@ namespace BootstrapWithAngular
                     "~/Scripts/Application/MainApp.js",
                     "~/Scripts/Application/Modules/Tickets/TicketApp.js",
                     "~/Scripts/Application/Modules/Tickets/TicketController.js",
-                    "~/Scripts/Application/Modules/Tickets/TicketService.js"
+                    "~/Scripts/Application/Modules/Tickets/TicketService.js",
+                    "~/Scripts/Application/Modules/Tickets/ManageTicketController.js"
                 ));
         }
     }
