@@ -1,6 +1,8 @@
 ﻿angular.module("TicketApp").controller("TicketController", [
     '$scope',
-    function ($scope) {
+    'TicketService',
+    function ($scope, TicketService) {
         $scope.quickTest = "Tickets coming soon!";
+        $scope.tickets = TicketService.getList();
     }
 ]);
