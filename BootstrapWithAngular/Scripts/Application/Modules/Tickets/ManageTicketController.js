@@ -3,7 +3,8 @@
     '$route',
     'TicketService',
     'TicketCategoryService',
-    function ($scope, $route, TicketService, TicketCategoryService) {
+    '$location',
+    function ($scope, $route, TicketService, TicketCategoryService, $location) {
         var id = $route.current.params.id;
 
         $scope.title = "Manage Ticket #" + id;
@@ -17,5 +18,15 @@
         });
 
         $scope.categories = TicketCategoryService.getList();
+
+        $scope.submitTicket = function (item) {
+            TicketService.updateItem(item);
+            $location.path('/tickets');
+            $route.reload();//similar to re-databinding
+        };
+
+
+
+        }
     }
 ]);
