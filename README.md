@@ -20,3 +20,4 @@
 1. Setup Controller and route
 2. Setup Service
 3. Add Resource
+4. Add Repeat Directive
