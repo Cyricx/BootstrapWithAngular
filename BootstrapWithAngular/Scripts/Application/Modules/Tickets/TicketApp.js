@@ -1,1 +1,1 @@
-﻿angular.module("TicketApp", ['ngResource']);
+﻿angular.module("TicketApp", ['ngResource', 'TicketCategoryApp']);

@@ -2,7 +2,8 @@
     '$scope',
     '$route',
     'TicketService',
-    function ($scope, $route, TicketService) {
+    'TicketCategoryService',
+    function ($scope, $route, TicketService, TicketCategoryService) {
         var id = $route.current.params.id;
 
         $scope.title = "Manage Ticket #" + id;
@@ -15,5 +16,6 @@
             $scope.item = response;
         });
 
+        $scope.categories = TicketCategoryService.getList();
     }
 ]);

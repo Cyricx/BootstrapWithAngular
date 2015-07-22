@@ -27,3 +27,4 @@
 1. Add quick close
 2. Add Manage Ticket Controller
 3. Retrieve editting id and populate inputs
+4. Hook up select for TicketCategories

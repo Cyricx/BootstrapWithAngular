@@ -1,6 +1,6 @@
 ﻿//to create a module pass the name and an array for anything it depends on.
 //Our module now depends on the route module, which is named ngRoute
-angular.module("MainApp", ['ngRoute', 'TicketApp']);
+angular.module("MainApp", ['ngRoute', 'TicketApp', 'TicketCategoryApp']);
 
 //The below works WITHOUT minification. If minified it breaks the depenency injection
 //Angular no longer finds a parameter called $scope.
