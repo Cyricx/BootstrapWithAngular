@@ -13,5 +13,10 @@ namespace BootstrapWithAngular.Controllers
         {
             return View();
         }
+
+        public ActionResult AngularApp()
+        {
+            return View();
+        }
     }
 }

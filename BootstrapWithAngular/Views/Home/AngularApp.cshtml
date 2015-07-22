@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "AngularApp";
+}
+
+<div data-ng-app="MainApp">
+
+    <h2>AngularApp</h2>
+    <div data-ng-controller="TestController">
+        <h3>{{test}}</h3>
+    </div>
+
+</div>
+
+@section scripts {
+    @Scripts.Render("~/bundles/angular")
+}
