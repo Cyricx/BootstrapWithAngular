@@ -7,3 +7,5 @@
 2. Upgrade Bootstrap and show basic effects
 3. Show offset and pull
 4. Bootstrap tabs
+
+## 2: Angular Intro
