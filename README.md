@@ -11,3 +11,4 @@
 ## 2: Angular Intro
 1. Add Bundling and Angular packages
 2. Add View and test Angular
+3. Data-Binding
