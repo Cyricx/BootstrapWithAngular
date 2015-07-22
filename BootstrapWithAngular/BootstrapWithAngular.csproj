@@ -142,6 +142,9 @@
       <DependentUpon>MainApp.js</DependentUpon>
     </Content>
     <Content Include="Scripts\Application\TestView.html" />
+    <Content Include="Scripts\Application\Modules\Tickets\TicketApp.js" />
+    <Content Include="Scripts\Application\Modules\Tickets\TicketController.js" />
+    <Content Include="Scripts\Application\Modules\Tickets\Tickets.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

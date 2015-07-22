@@ -17,3 +17,4 @@
 6. Add nav
 
 ## 3: Tickets
+1. Setup Controller and route
