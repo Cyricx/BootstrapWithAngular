@@ -24,3 +24,4 @@
 5. Working with basic filters
 
 ## 4: Tickets CRUD
+1. Add quick close

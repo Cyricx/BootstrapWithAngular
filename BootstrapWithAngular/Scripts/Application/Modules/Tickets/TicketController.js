@@ -16,5 +16,8 @@
             }
         };
 
+        $scope.updateTicket = function (ticket) {
+            TicketService.updateItem(ticket);
+        }
     }
 ]);

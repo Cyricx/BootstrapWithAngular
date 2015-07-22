@@ -22,7 +22,9 @@
                 <td>{{ticket.Title}}</td>
                 <td>{{ticket.TicketCategory.Name}}</td>
                 <td>{{ticket.SprintDate | date: 'MMM, d yyyy'}}</td>
-                <td>{{ticket.IsClosed}}</td>
+                <td><input type="checkbox" data-ng-model="ticket.IsClosed" 
+                           data-ng-change="updateTicket(ticket)" /></td>
+
             </tr>
         </tbody>
 
