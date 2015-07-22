@@ -21,3 +21,4 @@
 2. Setup Service
 3. Add Resource
 4. Add Repeat Directive
+5. Working with basic filters

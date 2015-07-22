@@ -3,23 +3,25 @@
     <br />
     You have {{tickets.length}} tickets!
     <br />
+    Show Closed? <input type="checkbox" data-ng-model="showClosed" />
+    <br />
 
     <table class="table table-bordered table-striped">
         <thead>
             <tr>
                 <th>#</th>
-                <th>Title</th>
-                <th>Category</th>
-                <th>Sprint Date</th>
+                <th data-ng-click="changeOrder('Title')">Title</th>
+                <th data-ng-click="changeOrder('TicketCategory.Name')">Category</th>
+                <th data-ng-click="changeOrder('SprintDate')">Sprint Date</th>
                 <th>Is Closed?</th>
             </tr>
         </thead>
         <tbody>
-            <tr data-ng-repeat="ticket in tickets">
+            <tr data-ng-repeat="ticket in tickets | filter: {IsClosed:showClosed} | orderBy: orderColumn">
                 <td>{{ticket.TicketID}}</td>
                 <td>{{ticket.Title}}</td>
                 <td>{{ticket.TicketCategory.Name}}</td>
-                <td>{{ticket.SprintDate}}</td>
+                <td>{{ticket.SprintDate | date: 'MMM, d yyyy'}}</td>
                 <td>{{ticket.IsClosed}}</td>
             </tr>
         </tbody>
