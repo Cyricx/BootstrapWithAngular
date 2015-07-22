@@ -5,3 +5,4 @@
 ## 1: Bootstrap
 1. Add Ipsum and Footer
 2. Upgrade Bootstrap and show basic effects
+3. Show offset and pull
