@@ -19,3 +19,4 @@
 ## 3: Tickets
 1. Setup Controller and route
 2. Setup Service
+3. Add Resource
