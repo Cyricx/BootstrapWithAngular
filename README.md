@@ -1,3 +1,9 @@
+## To Get Started with this application!
+1. Download one of the versions below, then go into the .nuget/Nuget.targets file and on line 16 specify that the DownloadNugetExs should be true.
+2. Then go into the root application web.config and under the EntityFramework -> contexts -> context node change the attribute disableDatabaseInitialization to false.
+3. Run the application and go to the tickets or ticket categories page.
+4. Go back into the root web.config and change disableDatabaseInitialization back to true.
+
 ## 0: Setup
 1. Initial Project Creation
 2. Loaded EntityFramework with Web API with additional tickets
