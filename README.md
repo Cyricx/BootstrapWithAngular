@@ -37,3 +37,4 @@
 5. [4.5](https://github.com/Cyricx/BootstrapWithAngular/releases/tag/4.5) Implement save for edit
 6. [4.6](https://github.com/Cyricx/BootstrapWithAngular/releases/tag/4.6) Create functionality
 7. [4.7](https://github.com/Cyricx/BootstrapWithAngular/releases/tag/4.7) Fix category issue with edit
+7. [4.7.1](https://github.com/Cyricx/BootstrapWithAngular/releases/tag/4.7.1) Added missing create item function for Ticket Service
