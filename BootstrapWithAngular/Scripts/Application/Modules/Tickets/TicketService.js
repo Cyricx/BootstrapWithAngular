@@ -21,6 +21,9 @@
             },
             getItem: function (id) {
                 return resourceAccessObject.get({ TicketID: id });
+            },
+            createItem: function (item) {
+                return resourceAccessObject.create(item);
             }
         };
     }
